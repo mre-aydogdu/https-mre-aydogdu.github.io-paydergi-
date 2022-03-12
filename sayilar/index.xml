@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sayilar on PAY</title>
-    <link>https://mre-aydogdu.github.io/paydergi/sayilar/</link>
-    <description>Recent content in sayilar on PAY</description>
+    <title>Tags on PAY</title>
+    <link>https://mre-aydogdu.github.io/paydergi/tags/</link>
+    <description>Recent content in Tags on PAY</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2019, all rights reserved.</copyright>
+    <copyright>Copyright © 2019, Weru and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mre-aydogdu.github.io/paydergi/sayilar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mre-aydogdu.github.io/paydergi/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>emoji</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/emoji/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/emoji/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/development/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/development/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/go/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/go/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/golang/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/golang/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/hugo/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/hugo/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/templates/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/templates/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://mre-aydogdu.github.io/paydergi/sayilar/themes/</link>
+      <link>https://mre-aydogdu.github.io/paydergi/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/sayilar/themes/</guid>
+      <guid>https://mre-aydogdu.github.io/paydergi/tags/themes/</guid>
       <description></description>
     </item>
     
