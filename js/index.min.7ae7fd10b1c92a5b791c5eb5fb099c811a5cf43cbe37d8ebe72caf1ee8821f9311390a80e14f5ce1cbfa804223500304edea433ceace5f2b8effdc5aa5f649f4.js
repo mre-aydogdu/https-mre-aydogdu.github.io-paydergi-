@@ -20,42 +20,8 @@ if(id){link.href=`${current}#${id}`;node.appendChild(link);pushClass(node,'link_
 {let target=event.target;if(target.classList.contains(deeplink)||target.parentNode.classList.contains(deeplink)){event.preventDefault();let newLink=target.href!=undefined?target.href:target.parentNode.href;copyToClipboard(newLink);}});}})();(function copyLinkToShare(){let copy,copied,excerpt,isCopyIcon,isInExcerpt,link,page,postCopy,postLink,target;copy='copy';copied='copy_done';excerpt='excerpt';postCopy='post_copy';postLink='post_card';doc.addEventListener('click',function(event){target=event.target;const isInCopyIcon=target.closest(`.${copy}`)
 isCopyIcon=isTarget(target,copy);isInExcerpt=containsClass(target,postCopy);if(isCopyIcon){event.preventDefault();if(isInExcerpt){link=target.closest(`.${excerpt}`).previousElementSibling;link=containsClass(link,postLink)?elemAttribute(link,'href'):false;}else{link=window.location.href;}
 if(link){copyToClipboard(link);isInCopyIcon?pushClass(isInCopyIcon,copied):pushClass(target,copied);}}});})();(function hideAside(){let aside,title,posts;aside=elem('.aside');title=aside?aside.previousElementSibling:null;if(aside&&title.nodeName.toLowerCase()==='h3'){posts=Array.from(aside.children);posts.length<1?title.remove():false;}})();(function goBack(){let backBtn=elem('.btn_back');let history=window.history;if(backBtn){backBtn.addEventListener('click',function(){history.back();});}})();const light='lit';const dark='dim';const storageKey='colorMode';const key='--color-mode';const data='data-mode';const bank=window.localStorage;function currentMode(){let acceptableChars=light+dark;acceptableChars=[...acceptableChars];let mode=getComputedStyle(doc).getPropertyValue(key).replace(/\"/g,'').trim();mode=[...mode].filter(function(letter){return acceptableChars.includes(letter);});return mode.join('');}
-
-
-function changeMode(isDarkMode)
-{
-    if(isDarkMode){bank.setItem(storageKey,light)
-    elemAttribute(doc,data,light);}
-        else
-        {
-            bank.setItem(storageKey,dark);
-         elemAttribute(doc,data,dark);
-        }
-                                }
+function changeMode(isDarkMode){if(isDarkMode){bank.setItem(storageKey,light)
+elemAttribute(doc,data,light);}else{bank.setItem(storageKey,dark);elemAttribute(doc,data,dark);}}
 (function lazy(){function lazyLoadMedia(element){let mediaItems=elems(element);if(mediaItems){Array.from(mediaItems).forEach(function(item){item.loading="lazy";});}}
-lazyLoadMedia('iframe');lazyLoadMedia('img');})();
-
-function setUserColorMode(mode=false){
-    const isDarkMode=currentMode()==dark;
-    const storedMode=bank.getItem(storageKey);
-    if(storedMode){
-        if(mode){
-            changeMode(isDarkMode);
-        }
-        else{
-            elemAttribute(doc,data,storedMode);
-        }
-    }
-    else{
-        if(mode===true){changeMode(isDarkMode)
-        }
-    }
-}
-setUserColorMode();
-doc.addEventListener('click',function(event){
-    let target=event.target;
-    let modeClass='color_choice';
-    let isModeToggle=containsClass(target,modeClass);
-    if(isModeToggle){
-        setUserColorMode(true);
-    }});})();
+lazyLoadMedia('iframe');lazyLoadMedia('img');})();function setUserColorMode(mode=false){const isDarkMode=currentMode()==dark;const storedMode=bank.getItem(storageKey);if(storedMode){if(mode){changeMode(isDarkMode);}else{elemAttribute(doc,data,storedMode);}}else{if(mode===true){changeMode(isDarkMode)}}}
+setUserColorMode();doc.addEventListener('click',function(event){let target=event.target;let modeClass='color_choice';let isModeToggle=containsClass(target,modeClass);if(isModeToggle){setUserColorMode(true);}});})();
