@@ -43,10 +43,18 @@
 <header class="nav">
   <nav class="nav-menu">
     <a href="https://mre-aydogdu.github.io/paydergi/" target="_self">
-      <picture>
+      <noscript> 
+    <picture>
+      <source srcset="https://mre-aydogdu.github.io/paydergi/images/icons/dark_logo.png" media="(prefers-color-scheme: dark)" />
+      <source srcset="https://mre-aydogdu.github.io/paydergi/images/icons/favicon.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img id="screenshot" src="favicon.png" />
+    </picture>
+</noscript>
+      <!-- <picture>
         <source srcset="https://mre-aydogdu.github.io/paydergi/images/icons/dark_logo.png" media="(prefers-color-scheme: dark)" alt="logo" height="30" width="156">
         <img src="https://mre-aydogdu.github.io/paydergi/images/icons/favicon.png" alt="logo" height="30" width="156">
       </picture>
+    -->
   </a>
     <div class="nav_bar-wrap">
       <div class="nav_bar"></div>
