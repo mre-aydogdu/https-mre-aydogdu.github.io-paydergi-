@@ -43,7 +43,17 @@
 <header class="nav">
   <nav class="nav-menu">
     <a href="https://mre-aydogdu.github.io/paydergi/" target="_self">
-      <img  src="https://mre-aydogdu.github.io/paydergi/images/icons/favicon.png" alt="logo" height="30" width="156">
+
+
+      <!-- this part is edited for dark mode, it currently doesn't work: browser can't react to the transition between the light and dark theme change. 
+      we'll probably have to edit the JS files-->
+      <picture>
+        <img src="https://mre-aydogdu.github.io/paydergi/images/icons/favicon.png" alt="logo" height="30" width="156">
+        <source srcset="https://mre-aydogdu.github.io/paydergi/images/icons/dark_logo.png" media="(prefers-color-scheme: dark)" alt="logo" height="30" width="156">
+      </picture>
+      <!---->
+
+
   </a>
     <div class="nav_bar-wrap">
       <div class="nav_bar"></div>
@@ -58,7 +68,7 @@
   <h1 class="archive_title">Sayılar</h1>
   
   <article class = 'article mb-2'>
-    <a href = 'https://mre-aydogdu.github.io/paydergi/post/sayi1/'  class = 'grid-reverse' >
+    <a href = 'https://mre-aydogdu.github.io/paydergi/post/sayi1/'  class = 'grid-reverse' style = "cursor:auto;">
       <div class = 'article_thumb' style='background-image: url(https://mre-aydogdu.github.io/paydergi/images/sayi_1_kapak.jpg)'></div>
       <div class = 'article_meta  center_y '>
         <time class = 'post_date'>Pay Dergisi</time>
@@ -87,6 +97,7 @@
       </a> -->
     
   </div>
+
 
   </div>
     </main>
