@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PAY</title>
-    <link>https://mre-aydogdu.github.io/paydergi/tags/</link>
+    <link>http://paydergi.com/tags/</link>
     <description>Recent content in Tags on PAY</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2019, all rights reserved.</copyright>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mre-aydogdu.github.io/paydergi/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://paydergi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>emoji</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/emoji/</link>
+      <link>http://paydergi.com/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/emoji/</guid>
+      <guid>http://paydergi.com/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/development/</link>
+      <link>http://paydergi.com/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/development/</guid>
+      <guid>http://paydergi.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/go/</link>
+      <link>http://paydergi.com/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/go/</guid>
+      <guid>http://paydergi.com/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/golang/</link>
+      <link>http://paydergi.com/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/golang/</guid>
+      <guid>http://paydergi.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/hugo/</link>
+      <link>http://paydergi.com/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/hugo/</guid>
+      <guid>http://paydergi.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/templates/</link>
+      <link>http://paydergi.com/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/templates/</guid>
+      <guid>http://paydergi.com/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://mre-aydogdu.github.io/paydergi/tags/themes/</link>
+      <link>http://paydergi.com/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mre-aydogdu.github.io/paydergi/tags/themes/</guid>
+      <guid>http://paydergi.com/tags/themes/</guid>
       <description></description>
     </item>
     
